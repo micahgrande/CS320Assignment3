@@ -4,7 +4,7 @@
 #include <string.h>
 #include <stdio.h>
 
-int main ( in argc, char *argv[] ) {
+int main ( int argc, char *argv[] ) {
 
     printf("Assignment #3-1, Micah Joseph Grande, micah.grande@gmail.com\n");
 
