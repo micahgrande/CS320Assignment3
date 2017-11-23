@@ -12,6 +12,9 @@ contains a single method (InfixToPostfix(string)) that converts a math expressio
 
 ## prog3_3
 
+Uses C++ to create a Lua environment and execute a Lua file. A function inside the file is executed and the result of the function
+is then outputted.
+
 ---
 
 prog3_1 can be compiled by using the command: "g++ prog3_1.cpp –o prog3_1 –I lua-5.3.4/src –L lua-5.3.4/src –l lua –l m –l dl"
