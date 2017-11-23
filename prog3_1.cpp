@@ -10,8 +10,7 @@
 
       lua_State *L = luaL_newstate();
       luaL_openlibs(L); 
-
-      luaL_dofile(L, argv[1]);
+     luaL_dofile(L, argv[1]);
 
       lua_close(L);
       return 0;
