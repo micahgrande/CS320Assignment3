@@ -43,7 +43,6 @@ i = 0
     for j = 2, i do
         post = post .. " " .. postFix[j]
     end
-    print(post)
     return(post)
 end
 
