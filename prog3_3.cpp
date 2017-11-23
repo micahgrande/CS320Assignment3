@@ -1,8 +1,9 @@
-#include <lua.hpp>
-#include <lauxlib.h>
-#include <lualib.h>
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <string>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include "lua.hpp"
 
 extern"C"
 {
