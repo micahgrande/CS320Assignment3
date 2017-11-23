@@ -23,7 +23,7 @@ int main ( int argc, char *argv[] ) {
     luaL_openlibs(L);
     luaL_dofile(L,argv[1]);
     
-    string buff = "return InfixToPostfix(\"")
+    string buff = "return InfixToPostfix(\"";
     string input;
     getline(cin,input);
     buff +=input;
