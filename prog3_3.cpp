@@ -21,7 +21,7 @@ int main ( int argc, char *argv[] ) {
 
     lua_State *L = luaL_newstate();
     luaL_openlibs(L);
-    lua_dofile(L,argv[1]);
+    luaL_dofile(L,argv[1]);
     
     string buff = "return InfixToPostfix(\"")
     string input;
