@@ -21,8 +21,7 @@ int main ( in argc, char *argv[] ) {
     
     cout<<"Assignment #3-1, Micah Joseph Grande, micah.grande@gmail.com\n";
 
-    lua_State *L;
-    L = luaL_newState();
+    lua_State *L = luaL_newState();
     luaL_openlibs(L);
     luaL_dofile(L, argv[1]);
     getline(cin,input);
