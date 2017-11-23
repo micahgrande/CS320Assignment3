@@ -13,7 +13,7 @@ extern"C"
 
 using namespace std;
 
-int main ( in argc, char *argv[] ) {
+int main ( int argc, char *argv[] ) {
     
     char buff[256];
     string itp = "return InfixToPostfix(\"";
