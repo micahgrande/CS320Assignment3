@@ -19,7 +19,7 @@ int main ( in argc, char *argv[] ) {
     string itp = "return InfixToPostfix(\"";
     string input;
     
-    cout<<"Assignment #3-1, Micah Joseph Grande, micah.grande@gmail.com\n";
+    cout<<"Assignment #3-3, Micah Joseph Grande, micah.grande@gmail.com\n";
 
     lua_State *L = luaL_newState();
     luaL_openlibs(L);
