@@ -44,7 +44,7 @@ i = 0
         post = post .. " " .. postFix[j]
     end
     print(post)
-    return(post)
+   -- return(post)
 end
 
 
