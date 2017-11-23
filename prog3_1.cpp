@@ -5,8 +5,6 @@
     #include <lualib.h>
     
     int main (int argc, char *argv[]) {
-      char buff[256];
-      int error;
 
       printf("Assignment #3-1, Micah Joseph Grande, micah.grande@gmail.com\n");
 
