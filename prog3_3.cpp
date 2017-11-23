@@ -27,12 +27,12 @@ int main ( int argc, char *argv[] ) {
     string input;
     getline(cin,input);
     buff +=input;
-    string end = "\")";
+    //string end = "\")";
     buff+=end;
     char test[1024];
     strcpy(test,buff.c_str());
     luaL_dostring(L,test);
-    cout << luaL_checkstring(L,1) <<end;
+    cout << luaL_checkstring(L,1); // <<end;
 
 
     lua_close(L);
