@@ -1,4 +1,4 @@
-function t(inStr)
+function InfixToPostfix(inStr)
     tokString = {}
 i = 0
     stack = {}
