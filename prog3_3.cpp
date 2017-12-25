@@ -27,7 +27,7 @@ int main ( int argc, char *argv[] ) {
     string input;
     getline(cin,input);
     buff +=input;
-    string end = "\")";
+    string end = "\";
     buff+=end;
     char test[1024];
     strcpy(test,buff.c_str());
